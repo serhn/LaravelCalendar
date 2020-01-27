@@ -1,0 +1,27 @@
+{
+    "name": "serh/laravel-calendar",
+    "description": "Laravel 5.8 Calendar, bootstrap,  languges en, ru, ua",
+    "keywords": [
+        "laravel",
+        "calendar"
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Serh\\LaravelCalendar": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Serh\\LaravelCalendar\\CalendarServiceProvider"
+            ],
+            "aliases": {
+                "Calendar": "Serh\\LaravelCalendar\\Facades\\Calendar"
+            }
+        }
+    }
+}

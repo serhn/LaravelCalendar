@@ -1,0 +1,35 @@
+$calendar-day-width: 25px;
+.serh-calendar-laravel {
+  background-color: gray;
+  h2 {
+    background-color: green;
+  }
+  .month {
+    background-color: indianred;
+    padding: 0;
+    margin: 0;
+    width: $calendar-day-width * 7;
+    height: $calendar-day-width * 8;
+    float: left;
+    margin: 5px;
+    .month-name {
+      text-align: center;
+      background-color: peru;
+      height: $calendar-day-width;
+    }
+    .week {
+      text-align: center;
+      width: $calendar-day-width;
+      height: $calendar-day-width;
+      background-color: lightskyblue;
+      float: left;
+    }
+    .day {
+      text-align: center;
+      width: $calendar-day-width;
+      height: $calendar-day-width;
+      background-color: khaki;
+      float: left;
+    }
+  }
+}
